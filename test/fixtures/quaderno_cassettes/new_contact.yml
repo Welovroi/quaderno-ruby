@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://n8sDLUZ5z1d6dYXKixnx@localhost:3000/recrea/api/v1/contacts.json
+    uri: https://n8sDLUZ5z1d6dYXKixnx@quadernoapp.com/recrea/api/v1/contacts.json
     body:
       encoding: US-ASCII
       string: kind=company&first_name=Test_Skynet&email=my_little%40po.ny
@@ -36,7 +36,7 @@ http_interactions:
       - thin 1.5.0 codename Knife
     body:
       encoding: US-ASCII
-      string: ! '{"id":15,"kind":"company","full_name":"Test_Skynet","contact_name":null,"street_line_1":null,"street_line_2":null,"postal_code":null,"city":null,"region":null,"country":"US","phone_1":null,"phone_2":null,"fax":null,"email":"my_little@po.ny","web":null,"discount":null,"tax_id":null,"language":"EN","notes":null,"url":"http://localhost:3000/recrea/api/v1/contacts/15"}'
+      string: ! '{"id":15,"kind":"company","full_name":"Test_Skynet","contact_name":null,"street_line_1":null,"street_line_2":null,"postal_code":null,"city":null,"region":null,"country":"US","phone_1":null,"phone_2":null,"fax":null,"email":"my_little@po.ny","web":null,"discount":null,"tax_id":null,"language":"EN","notes":null,"url":"https://quadernoapp.com/recrea/api/v1/contacts/15"}'
     http_version: '1.1'
   recorded_at: Tue, 14 May 2013 10:47:49 GMT
 recorded_with: VCR 2.3.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://n8sDLUZ5z1d6dYXKixnx@localhost:3000/recrea/api/v1/ping.json
+    uri: https://n8sDLUZ5z1d6dYXKixnx@quadernoapp.com/recrea/api/v1/ping.json
     body:
       encoding: US-ASCII
       string: ''

@@ -52,7 +52,7 @@ class TestQuadernoWebhook < Test::Unit::TestCase
       VCR.use_cassette('new webhook') do
         webhook = Quaderno::Webhook.create(url: 'http://quadernoapp.com', events: ['created', 'updated'])
         assert_kind_of Quaderno::Webhook, webhook
-        assert_equal 'http://quadernoapp.com', webhook.url
+        assert_equal 'https://quadernoapp.com', webhook.url
         assert_equal ['created', 'updated'], webhook.events
         Quaderno::Webhook.delete webhook.id
       end

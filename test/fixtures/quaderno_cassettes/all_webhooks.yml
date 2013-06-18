@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: post
-    uri: http://n8sDLUZ5z1d6dYXKixnx@localhost:3000/recrea/api/v1/webhooks.json
+    uri: https://n8sDLUZ5z1d6dYXKixnx@quadernoapp.com/recrea/api/v1/webhooks.json
     body:
       encoding: US-ASCII
       string: url=http%3A%2F%2Fgoogle.com&events[]=created&events[]=updated
@@ -39,12 +39,12 @@ http_interactions:
       - thin 1.5.0 codename Knife
     body:
       encoding: US-ASCII
-      string: ! '{"id":32,"url":"http://google.com","auth_key":"rp5-q_JEC2_TLlFy3y_dYg","events":["created","updated"],"last_sent_at":null,"last_error":null,"events_sent":0,"created_at":"2013-05-22T13:03:22Z","updated_at":"2013-05-22T13:03:22Z"}'
+      string: ! '{"id":32,"url":"https://google.com","auth_key":"rp5-q_JEC2_TLlFy3y_dYg","events":["created","updated"],"last_sent_at":null,"last_error":null,"events_sent":0,"created_at":"2013-05-22T13:03:22Z","updated_at":"2013-05-22T13:03:22Z"}'
     http_version: '1.1'
   recorded_at: Wed, 22 May 2013 13:03:22 GMT
 - request:
     method: post
-    uri: http://n8sDLUZ5z1d6dYXKixnx@localhost:3000/recrea/api/v1/webhooks.json
+    uri: https://n8sDLUZ5z1d6dYXKixnx@quadernoapp.com/recrea/api/v1/webhooks.json
     body:
       encoding: US-ASCII
       string: url=http%3A%2F%2Fquadernoapp.com&events[]=created&events[]=updated&events[]=deleted
@@ -81,12 +81,12 @@ http_interactions:
       - thin 1.5.0 codename Knife
     body:
       encoding: US-ASCII
-      string: ! '{"id":33,"url":"http://quadernoapp.com","auth_key":"vthKzhokOpZHOTnmTI4FLQ","events":["created","updated","deleted"],"last_sent_at":null,"last_error":null,"events_sent":0,"created_at":"2013-05-22T13:03:24Z","updated_at":"2013-05-22T13:03:24Z"}'
+      string: ! '{"id":33,"url":"https://quadernoapp.com","auth_key":"vthKzhokOpZHOTnmTI4FLQ","events":["created","updated","deleted"],"last_sent_at":null,"last_error":null,"events_sent":0,"created_at":"2013-05-22T13:03:24Z","updated_at":"2013-05-22T13:03:24Z"}'
     http_version: '1.1'
   recorded_at: Wed, 22 May 2013 13:03:24 GMT
 - request:
     method: get
-    uri: http://n8sDLUZ5z1d6dYXKixnx@localhost:3000/recrea/api/v1/webhooks.json
+    uri: https://n8sDLUZ5z1d6dYXKixnx@quadernoapp.com/recrea/api/v1/webhooks.json
     body:
       encoding: US-ASCII
       string: ''
@@ -120,12 +120,12 @@ http_interactions:
       - thin 1.5.0 codename Knife
     body:
       encoding: US-ASCII
-      string: ! '[{"id":32,"url":"http://google.com","auth_key":"rp5-q_JEC2_TLlFy3y_dYg","events":["created","updated"],"last_sent_at":null,"last_error":null,"events_sent":0,"created_at":"2013-05-22T13:03:22Z","updated_at":"2013-05-22T13:03:22Z"},{"id":33,"url":"http://quadernoapp.com","auth_key":"vthKzhokOpZHOTnmTI4FLQ","events":["created","updated","deleted"],"last_sent_at":null,"last_error":null,"events_sent":0,"created_at":"2013-05-22T13:03:24Z","updated_at":"2013-05-22T13:03:24Z"}]'
+      string: ! '[{"id":32,"url":"https://google.com","auth_key":"rp5-q_JEC2_TLlFy3y_dYg","events":["created","updated"],"last_sent_at":null,"last_error":null,"events_sent":0,"created_at":"2013-05-22T13:03:22Z","updated_at":"2013-05-22T13:03:22Z"},{"id":33,"url":"https://quadernoapp.com","auth_key":"vthKzhokOpZHOTnmTI4FLQ","events":["created","updated","deleted"],"last_sent_at":null,"last_error":null,"events_sent":0,"created_at":"2013-05-22T13:03:24Z","updated_at":"2013-05-22T13:03:24Z"}]'
     http_version: '1.1'
   recorded_at: Wed, 22 May 2013 13:03:24 GMT
 - request:
     method: delete
-    uri: http://n8sDLUZ5z1d6dYXKixnx@localhost:3000/recrea/api/v1/webhooks/32.json
+    uri: https://n8sDLUZ5z1d6dYXKixnx@quadernoapp.com/recrea/api/v1/webhooks/32.json
     body:
       encoding: US-ASCII
       string: ''
@@ -163,7 +163,7 @@ http_interactions:
   recorded_at: Wed, 22 May 2013 13:03:24 GMT
 - request:
     method: delete
-    uri: http://n8sDLUZ5z1d6dYXKixnx@localhost:3000/recrea/api/v1/webhooks/33.json
+    uri: https://n8sDLUZ5z1d6dYXKixnx@quadernoapp.com/recrea/api/v1/webhooks/33.json
     body:
       encoding: US-ASCII
       string: ''
